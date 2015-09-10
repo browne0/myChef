@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+em {
+    font-family: Lobster;
+    font-style:normal;
+    color: #e5e5e5;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #000;
+    cursor:default;
+}
+
+a, a:hover, a:active{
+    text-decoration:none;
+    color: #E5E5E5;
+}
+
+body p {
+    margin: 0;
+}
+
+input[type='text'], input[type='password'], input[type='email'] {
+    padding-left: 30px;
+    color: #000;
+    font-size: 16px;
+    outline: none !important;
+    -o-transition: all .2s; -moz-transition: all .2s; -webkit-transition: all .2s; -ms-transition: all .2s; transition: all .2s;
+}
+
+/* Navigation Bar */
+
+.navplaceholder {
+    height:102px;
+}
+
+nav {
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    background: #0F2834;
+    overflow:hidden;
+    position:relative;
+    padding:10px 0 0 0;
+    width: 100%;
+    z-index:99999 !important;
+    -webkit-backface-visibility: hidden;
+       -moz-backface-visibility: hidden;
+         -o-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+    margin-bottom: -48px;
+    
+}
+
+.sticky {
+    
+    position:fixed;
+    width:100%;
+    top:0px;
+    left:0px;
+    z-index:9000;
+    border-top:0;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.sticky .navbar-brand.logo {
+    margin-top: 8px;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.sticky ul.nav li {
+    margin-top:8px;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.nav-scrolled,
+.imgcontainer {
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+nav.navbar {
+    margin-bottom:0px;
+    border: 0px;
+    border-radius: 0;
+}
+
+ul.nav li {
+    border:2px solid rgba(255, 255, 255, 0);
+    padding: 17px 15px;
+    text-align:center;
+}       
+
+ul.nav li a {
+    color: #E5E5E5;
+    font-size:14px;
+    font-weight:700;
+    padding:0;
+    text-transform:uppercase;
+    background:none !important;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}       
+
+ul.nav li a:hover {
+    color: #e75967;
+    background:none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}       
+
+nav .navbar-brand {
+    height:75px;
+}
+
+.navbar-brand.logo {
+    padding-top:0px;
+    font-family:Lobster;
+}
+
+.navbar-brand.logo:hover p{
+    color: #e75967;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.navbar-brand p {
+    margin-bottom: 0;
+    text-align:right;
+    color:#E5E5E5;
+    font-size:32px;
+}
+
+.navbar-brand .special {
+    margin-bottom:7px;
+}
+
+.icon-bar {
+    color: #E5E5E5;
+    background: #E5E5E5;
+}
+
+/* Main Content for when user not logged in */
+
+.loginwrapper {
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    /*background: url('/mychef/assets/img/backgrounds/4.jpg') #67282E;*/
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.loginbox {
+    width: 450px;
+    margin: auto;
+    height: 341px;
+    position: relative;
+    margin-top: 17%;
+    /*top: 50%;
+    transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+    -o-transform:translateY(-50%);*/
+    color: #E5E5E5;
+    border-radius: 10px;
+    padding:0px 0px 60px 0px;
+}
+
+.loginhead {
+    height: auto;
+    width: 100%;
+    background-color: rgba(15,40,52,.6);
+    padding: 20px 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+#formerror {
+    padding-top:8px;
+    color: red;
+    font-size: 12px;
+    height:35px;
+}
+
+.loginform{
+    width: 100%;
+    background-color: rgba(255,255,255,.6);
+    text-align: center;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.loginform input {
+    margin-bottom: 10px;
+    width: 300px;
+    height:30px;
+    background-color: rgba(255,255,255,.85);
+    border:1px solid rgba(0,0,0,0.38);
+}
+
+.loginform input[type="submit"]{
+    width: 100%;
+    height: 64.5px;
+    color: #fff;
+    margin-bottom: 0px;
+    background-color: rgba(15,40,52,.6);
+    outline: none !important;
+    border: none !important;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+input:focus { 
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.38);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.38);
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.loginform input[type="submit"]:hover{
+    background-color: rgba(231,89,103,.8);
+    -o-transition: all .2s; -moz-transition: all .2s; -webkit-transition: all .2s; -ms-transition: all .2s; transition: all .2s;
+}
+
+input[type="password"] {
+    margin-bottom: 0;
+}
+
+.userinputs {
+    display: inline-block;
+    position:relative;
+    margin-top: 30px;
+}
+
+small em {
+    color: #0F2834;
+    font-size: 20px;
+    letter-spacing: .6px;
+}
+
+small {
+    color: #0F2834;
+    font-size: 12px;
+    margin-top: 5px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.copyright {
+    padding-bottom:15px;
+    background-color: rgba(101,101,101,.2);
+}
+
+.inputwrap {
+    position: relative;
+}
+
+i.fa {
+    position: absolute;
+    top: 7.5px;
+    left: 10px;
+    color: rgba(15,40,52,.6);
+}

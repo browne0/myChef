@@ -1,0 +1,10 @@
+[02-Aug-2015 23:30:42 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home4/beesdesi/public_html/dev/mychef/register.php on line 14
+[02-Aug-2015 23:31:17 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home4/beesdesi/public_html/dev/mychef/register.php on line 17
+[02-Aug-2015 23:54:22 America/Chicago] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home4/beesdesi/public_html/dev/mychef/register.php on line 13
+[03-Aug-2015 00:32:22 America/Chicago] PHP Fatal error:  Call to undefined function session_start_timeout() in /home4/beesdesi/public_html/dev/mychef/register.php on line 14
+[04-Aug-2015 22:50:06 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/beesdesi/public_html/dev/mychef/login.php on line 67
+[04-Aug-2015 22:51:31 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home4/beesdesi/public_html/dev/mychef/register.php on line 11
+[04-Aug-2015 22:54:05 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home4/beesdesi/public_html/dev/mychef/register.php on line 15
+[04-Aug-2015 22:54:19 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/beesdesi/public_html/dev/mychef/register.php on line 18
+[05-Aug-2015 00:07:17 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home4/beesdesi/public_html/dev/mychef/register.php on line 237
+[05-Aug-2015 00:11:41 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home4/beesdesi/public_html/dev/mychef/register.php on line 237

@@ -1,0 +1,32 @@
+# Use PHP5.4 as default
+
+AddHandler application/x-httpd-php54 .php
+
+
+
+# Rewrite .php extension
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+RewriteRule ^(.*)$ $1.php
+
+
+
+# remove .html extension
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+RewriteRule ^(.*)$ $1.html
+
+AuthName "myChef"
+AuthUserFile "/home4/beesdesi/.htpasswds/public_html/dev/mychef/passwd"
+AuthType Basic
+require valid-user

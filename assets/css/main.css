@@ -1,0 +1,112 @@
+/* -----------------------
+
+	GLOBAL RULES 
+
+---------------------- */
+
+.vcenter {
+    position:relative;
+    top: 50%;
+    -moz-transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+
+
+a, a:focus, a:hover, input:hover{
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+
+/* --------------- 
+
+	MAIN PAGE 
+
+------------------*/
+
+#main {
+	background: #e75967;
+	width: 100vw;
+	height:100vh;
+	overflow: hidden;
+	position: absolute;
+}
+
+.nav li p {
+	color: #fff;
+}
+
+.setyourlocation {
+	overflow:hidden;
+	margin:auto;
+	font-family: 'Cabin', sans-serif;
+}
+
+.locationhead {
+	text-align: center;
+	font-size: 46px;
+	color: #fff;
+	display:inline-block;
+	position:relative;
+	left: 50%;
+	-moz-transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+	transform:translateX(-50%);
+	margin-bottom: 15px;
+	line-height: 1;
+}
+
+.locationhead span {
+	font-size: 24px;
+}
+
+.locationcont {
+	display: inline-block;
+	position:relative;
+	left: 50%;
+	-moz-transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+	transform:translateX(-50%);
+}
+
+input[type="text"].enterzip {
+	height: 65px;
+	width:233.8px;
+	font-size: 22px;
+	padding-left: 20px;
+	border: 1px solid transparent;
+}
+
+.submitzip {
+	height: 66px;
+	width: 139.2px;
+	font-size: 22px;
+	background-color:#67282E;
+	border: 1px solid transparent;
+	color: #E5E5E5;
+	margin-left: 15px;
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.submitzip:hover {
+	background-color: #0F2834;
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.inputmarker {
+	display:inline-block;
+	background: #fff;
+	padding-left: 30px;
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.fa.fa-map-marker {
+	position: absolute;
+    top: 18.5px;
+    left: 20px;
+    color: rgba(15,40,52,.6);
+    font-size: 33px;
+}
