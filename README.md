@@ -4,7 +4,7 @@ A simple application that could find local chefs in the nearby area. The backend
 
 # Screenshot
 
-![Screenshot](http://imgur.com/qwaDHeZ)
+![Screenshot]([Imgur](http://i.imgur.com/qwaDHeZ.gifv))
 
 ## Getting Started
 
